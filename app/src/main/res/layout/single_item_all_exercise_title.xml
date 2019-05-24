@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="3dp"
+    android:layout_height="35dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.18"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="0dp"
+        android:gravity="left|center_vertical"
+        android:textSize="20sp"
+        android:ellipsize="marquee"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:text="训练名称"
+        android:paddingLeft="2.5mm"
+        android:singleLine="true"
+        android:layout_weight="4"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.02"
+        android:background="#000000"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:gravity="left|center_vertical"
+        android:text="持续时间"
+        android:paddingLeft="1.5mm"
+        android:textSize="16sp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.02"
+        android:background="#000000"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="0dp"
+        android:text="开始"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.16"
+        android:layout_height="match_parent" />
+</LinearLayout>
